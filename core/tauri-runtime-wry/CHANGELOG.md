@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.5.3]
+
+- Account the monitor position when centering a window.
+  - [a7a9fde1](https://www.github.com/tauri-apps/tauri/commit/a7a9fde16fb7c35d48d4f97e83ff95b8baf9e090) fix(core): account for monitor position when centering window ([#4166](https://www.github.com/tauri-apps/tauri/pull/4166)) on 2022-05-21
+
 ## \[0.5.2]
 
 - Use the event loop proxy to create a window so it doesn't deadlock on Windows.

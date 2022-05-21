@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-rc.8]
+
+- Fixes lost files on upgrade due to wrong implementation to keep shortcuts.
+  - [8539e02f](https://www.github.com/tauri-apps/tauri/commit/8539e02f7fd56cc47b25ed45c8403d66abe262ac) fix(bundler): wix upgrade do not installing new files, closes [#4182](https://www.github.com/tauri-apps/tauri/pull/4182) on 2022-05-21
+
 ## \[1.0.0-rc.7]
 
 - Change `tsp` value from `Option<bool>` to `bool`.
